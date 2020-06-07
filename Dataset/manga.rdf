@@ -3,10 +3,12 @@
 
 <rdf:RDF
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-xmlns:md="http://www.topmanga.fake/mangadata#">
+xmlns:md="http://www.topmanga.fake/mangadata#"
+xmlns:d="http://www.topmanga.fake/data#">
 
 <rdf:Description
-rdf:about="http://www.topmanga.fake/md/Berserk">
+rdf:about="http://www.topmanga.fake/0">
+  <md:titles>Berserk</md:titles>
   <md:genres>Action, Adventure, Demons, Drama, Fantasy</md:genres>
   <md:Authors>Kentarou Miura</md:country>
   <md:volumes>Unknown</md:volumes>
@@ -15,7 +17,8 @@ rdf:about="http://www.topmanga.fake/md/Berserk">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://www.topmanga.fake/md/JoJo no Kimyou na Bouken Part 7: Steel Ball Run">
+rdf:about="http://www.topmanga.fake/1">
+  <md:titles>JoJo no Kimyou na Bouken Part 7: Steel Ball Run</md:titles>
   <md:genres>Action, Adventure, Mystery, Historical, Horror, Shounen, Supernatural</md:genres>
   <md:Authors>Hirohiko Araki</md:country>
   <md:volumes>24</md:volumes>
@@ -24,7 +27,8 @@ rdf:about="http://www.topmanga.fake/md/JoJo no Kimyou na Bouken Part 7: Steel Ba
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://www.topmanga.fake/md/Fullmetal Alchemist">
+rdf:about="http://www.topmanga.fake/2">
+  <md:titles>Fullmetal Alchemist</md:titles>
   <md:genres>Action, Adventure, Comedy, Drama, Shounen, Military</md:genres>
   <md:Authors>Hiromu Arakawa</md:country>
   <md:volumes>27</md:volumes>
@@ -33,8 +37,9 @@ rdf:about="http://www.topmanga.fake/md/Fullmetal Alchemist">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://www.topmanga.fake/md/Monster">
-  <md:genres>  Action, Adventure, Comedy, Drama, Shounen, Military</md:genres>
+rdf:about="http://www.topmanga.fake/3">
+  <md:titles>Monster</md:titles>
+  <md:genres>Action, Adventure, Comedy, Drama, Shounen, Military</md:genres>
   <md:Authors>Naoki Urasawa</md:country>
   <md:volumes>18</md:volumes>
   <md:chapters>162</md:chapters>
@@ -42,7 +47,8 @@ rdf:about="http://www.topmanga.fake/md/Monster">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://www.topmanga.fake/md/One Piece">
+rdf:about="http://www.topmanga.fake/4">
+  <md:titles>One Piece</md:titles>
   <md:genres>Action, Adventure, Comedy, Fantasy, Shounen, Super Power</md:genres>
   <md:Authors>Eiichiro Oda</md:country>
   <md:volumes>Unknown</md:volumes>
@@ -51,7 +57,8 @@ rdf:about="http://www.topmanga.fake/md/One Piece">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://www.topmanga.fake/manga/Vagabond">
+rdf:about="http://www.topmanga.fake/6">
+  <md:titles>Vagabond</md:titles>
   <cd:genres>Action, Adventure, Drama, Historical, Samurai, Seinen</md:genres>
   <cd:Authors>Eiji Yoshikawa </md:country>
   <cd:volumes>37</md:volumes>
