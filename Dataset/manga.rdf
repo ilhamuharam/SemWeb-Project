@@ -1,0 +1,65 @@
+
+<?xml version="1.0"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cd="http://www.topmanga.fake/manga#">
+
+<rdf:Description
+rdf:about="http://www.topmanga.fake/manga/Berserk">
+  <cd:genres>Action, Adventure, Demons, Drama, Fantasy</cd:genres>
+  <cd:Authors>Kentarou Miura</cd:country>
+  <cd:volumes>Unknown</cd:volumes>
+  <cd:chapters>Unknown</cd:chapters>
+  <cd:published>1989-now</cd:published>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.topmanga.fake/manga/JoJo no Kimyou na Bouken Part 7: Steel Ball Run">
+  <cd:genres>Action, Adventure, Mystery, Historical, Horror, Shounen, Supernatural</cd:genres>
+  <cd:Authors>Hirohiko Araki</cd:country>
+  <cd:volumes>24</cd:volumes>
+  <cd:chapters>96</cd:chapters>
+  <cd:published>2004-2011</cd:published>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.topmanga.fake/manga/Fullmetal Alchemist">
+  <cd:genres>Action, Adventure, Comedy, Drama, Shounen, Military</cd:genres>
+  <cd:Authors>Hiromu Arakawa</cd:country>
+  <cd:volumes>27</cd:volumes>
+  <cd:chapters>166</cd:chapters>
+  <cd:published>2001-2010</cd:published>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.topmanga.fake/manga/Monster">
+  <cd:genres>  Action, Adventure, Comedy, Drama, Shounen, Military</cd:genres>
+  <cd:Authors>Naoki Urasawa</cd:country>
+  <cd:volumes>18</cd:volumes>
+  <cd:chapters>162</cd:chapters>
+  <cd:published>1994-2001</cd:published>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.topmanga.fake/manga/One Piece">
+  <cd:genres>Action, Adventure, Comedy, Fantasy, Shounen, Super Power</cd:genres>
+  <cd:Authors>Eiichiro Oda</cd:country>
+  <cd:volumes>Unknown</cd:volumes>
+  <cd:chapters>Unknown</cd:chapters>
+  <cd:published>1997-now</cd:published>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.topmanga.fake/manga/Vagabond">
+  <cd:genres>Action, Adventure, Drama, Historical, Samurai, Seinen</cd:genres>
+  <cd:Authors>Eiji Yoshikawa </cd:country>
+  <cd:volumes>37</cd:volumes>
+  <cd:chapters>327</cd:chapters>
+  <cd:published>1999-2015</cd:published>
+</rdf:Description>
+
+.
+.
+.
+</rdf:RDF> 
