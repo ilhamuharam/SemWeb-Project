@@ -238,7 +238,7 @@ function App() {
                   {/* Logo */}
                   <div className="logo">
                     <a className="d-flex flex-row align-items-end justify-content-start">
-                      <span className="logo_bars d-flex flex-row align-items-end justify-content-between"><span /><span /><span /><span /><span /></span>
+                      <span className="d-flex flex-row align-items-end justify-content-between"><span /><span /><span /><span /><span /></span>
                       <span className="logo_text">MangaList</span>
                     </a>
                   </div>
@@ -263,7 +263,7 @@ function App() {
                           <div className="home_title_container text-center">
                             <div className="home_title islive text-center">
                               <h1>The Manga <span>  List</span></h1>
-                              <div className="extra_subtitle">Tempatnya informasi komik-komik top Jepang yang populer!</div>
+                              <div className="extra_subtitle">Tempatnya informasi manga-manga top!</div>
                             </div>
                           </div>
                           <div className="music_form_container">
@@ -295,11 +295,11 @@ function App() {
                 <div className="extra d-flex flex-column align-items-center justify-content-between">
                   <div className="background_image" style={{backgroundImage: 'url(images/extra_1.jpg)'}} />
                   <div className="extra_frame" />
-                  <div className="extra_text">jangan lupa, <br /><br /><br /> mangga bukan manga!</div>
+                  <div className="extra_text">jangan lupa, <br /><br /> mangga bukan manga!</div>
                   <div className="extra_title_container">
-                    <div className="extra_year">2020<br /><br /></div>
-                    <div className="extra_title">TOP MANGA</div>
-                    <div className="extra_subtitle"><br /><br />June 2020</div>
+                    <div className="extra_year">2020<br /><br /><br /><br /><br /></div>
+                    <div className="extra_title"><br />TOP MANGA</div>
+                    <div className="extra_subtitle"><br /><br /><br />June 2020</div>
                   </div>
                 </div>
               </div>
@@ -331,7 +331,6 @@ function App() {
             </div>
           </div>
         </div>
-        {/* App */}
         {/* News */}
         <div className="news">
           <div className="container">
