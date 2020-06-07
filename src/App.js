@@ -42,7 +42,7 @@ function App() {
         md:published  ?published ;
         md:titles ?titles ;
         md:volumes ?volumes ;
-          FILTER regex(?titles, "^${value.input}","i") 
+          FILTER regex(?titles, "${value.input}") 
         }`
     };
 
@@ -89,7 +89,7 @@ function App() {
         md:published  ?published ;
         md:titles ?titles ;
         md:volumes ?volumes ;
-          FILTER regex(?authors, "^${value.input}","i") 
+          FILTER regex(?authors, "^${value.input}") 
         }`
     };
 
@@ -131,11 +131,11 @@ function App() {
         {
           ?m     md:authors ?authors ;
         md:chapters ?chapters ;
-        md:genres ?genres;
+        md:genres ?genres ;
         md:published  ?published ;
         md:titles ?titles ;
         md:volumes ?volumes ;
-          FILTER regex(?published, "^${value.input}","i") 
+          FILTER regex(?published, "^${value.input}") 
         }`
     };
 
@@ -160,51 +160,6 @@ function App() {
     }
   }
 
-  const getDataGenres = async () => {
-    const BASE_URL = "http://localhost:3030/manga/query";
-
-    const headers = {
-      'Accept': 'application/sparql-results+json,*/*;q=0.9',
-      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-    };
-
-    const queryData = {
-      query:
-        `PREFIX md: <http://www.topmanga.fake/mangadatad#>
-  
-        SELECT ?authors ?chapters ?genres ?published ?titles ?volumes
-        WHERE
-        {
-          ?m     md:authors ?authors ;
-        md:chapters ?chapters ;
-        md:genres ?genres;
-        md:published  ?published ;
-        md:titles ?titles ;
-        md:volumes ?volumes ;
-          FILTER regex(?genres, "^${value.input}","i") 
-        }`
-    };
-
-    try {
-      const { data } = await axios(BASE_URL, {
-        method: 'POST',
-        headers,
-        data: qs.stringify(queryData)
-      });
-      console.log(data);
-
-      // Convert Data
-      const formatted_data = data.results.bindings.map((musics, index) => formatter(musics, index));
-      console.log(formatted_data)
-
-      setValue({
-        ...value,
-        musics: formatted_data
-      });
-    } catch (err) {
-      console.error(err);
-    }
-  }
   const getDataSorting = async () => {
     const BASE_URL = "http://localhost:3030/manga/query";
 
@@ -228,7 +183,7 @@ function App() {
         md:volumes ?volumes ;
           
         }
-        ORDER BY DESC(?published)`
+        ORDER BY DESC(?titles)`
     };
 
     try {
@@ -315,9 +270,9 @@ function App() {
                             <form action="#" className="music_form">
                               <div className="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
                                 <div className="music_form_inputs d-flex flex-row align-items-start justify-content-between">
-                                <input onChange={handleChange} type="text" className="music_form_input" placeholder="Cari judul, genre, pembuat, tahun publish" required="required"/>
+                                <input onChange={handleChange} type="text" className="music_form_input" placeholder="Cari judul, genre, pembuat, tahun publish" required="required"></input>
                                 </div>
-                                <button className="music_form_button button" onClick={function(event){ getDataTitles(); getDataGenres(); getDataPublished(); getDataAuthors()}}><span>Cari Yuk</span></button>
+                                <button className="music_form_button button" onClick={function(event){ getDataTitles(); getDataPublished(); getDataAuthors()}}><span>Cari Yuk</span></button>
                               </div>
                             </form>
                           </div>
@@ -359,7 +314,7 @@ function App() {
                     <ol>
                       {value.musics.map((item, i) => 
                       <li key={i}>
-                        <li className="d-flex flex-row align-items-start justify-content-start"><br /></li>
+                        <br /><li className="d-flex flex-row align-items-start justify-content-start"></li>
                         <div className="music_info"><br />Informasi</div>
                         <div className="music_titles"><h2>{item.titles}</h2><br /></div>
                         <div className="music_authors">{item.authors}<br /></div>
