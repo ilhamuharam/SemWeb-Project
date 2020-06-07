@@ -1,0 +1,38 @@
+@prefix: md: <http://www.topmanga.fake/md#> .
+
+  md:genres     "Action, Adventure, Demons, Drama, Fantasy";
+  md:Authors    "Kentarou Miura";
+  md:volumes    "Unknown" ;
+  md:chapters   "Unknown" ;
+  md:published  "1989-now" ;
+
+
+  md:genres     "Action, Adventure, Mystery, Historical, Horror, Shounen, Supernatural";
+  md:Authors    "Hirohiko Araki";
+  md:volumes    "24";
+  md:chapters   "96";
+  md:published  "2004-2011";
+
+  md:genres     "Action, Adventure, Comedy, Drama, Shounen, Military";
+  md:Authors    "Hiromu Arakawa";
+  md:volumes    "27";
+  md:chapters   "166";
+  md:published  "2001-2010";
+
+  md:genres     "Action, Adventure, Comedy, Drama, Shounen, Military";
+  md:Authors    "Naoki Urasawa";
+  md:volumes    "18";
+  md:chapters   "162";
+  md:published  "1994-2001";
+
+  md:genres     "Action, Adventure, Comedy, Fantasy, Shounen, Super Power";
+  md:Authors    "Eiichiro Oda";
+  md:volumes    "Unknown";
+  md:chapters   "Unknown";
+  md:published  "1997-now";
+
+  md:genres     "Action, Adventure, Drama, Historical, Samurai, Seinen";
+  md:Authors    "Eiji Yoshikawa";
+  md:volumes    "37";
+  md:chapters   "327";
+  md:published  "1999-2015";
