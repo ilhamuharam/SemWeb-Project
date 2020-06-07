@@ -1,10 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##MangaList
+###MangaList
+
 
 adalah proyek web semantik yang bertujuan sebagai wadah informasi untuk mencari informasi manga-manga populer.
 
-##Panduan Installasi 
+
+###Panduan Installasi 
+
 
 Requirements:
 
@@ -13,6 +16,7 @@ Requirements:
 -React-app
 
 (Install keduanya terlebih dahulu)
+
 
 Cara membuka proyek:
 
@@ -26,13 +30,16 @@ Cara membuka proyek:
 
 -Ketik "npm start" lalu otomatis terbuka localhost:3000
 
-##Panduan Penggunaan Dataset
+
+###Panduan Penggunaan Dataset
+
 
 Requirements:
 
 -Apache Jena Fuseki
 
 (Install terlebih dahulu)
+
 
 Upload Dataset:
 
