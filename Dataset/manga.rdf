@@ -7,56 +7,56 @@ xmlns:md="http://www.topmanga.fake/mangadata#">
 
 <rdf:Description
 rdf:about="http://www.topmanga.fake/md/Berserk">
-  <md:genres>Action, Adventure, Demons, Drama, Fantasy</cd:genres>
-  <md:Authors>Kentarou Miura</cd:country>
-  <md:volumes>Unknown</cd:volumes>
-  <md:chapters>Unknown</cd:chapters>
-  <md:published>1989-now</cd:published>
+  <md:genres>Action, Adventure, Demons, Drama, Fantasy</md:genres>
+  <md:Authors>Kentarou Miura</md:country>
+  <md:volumes>Unknown</md:volumes>
+  <md:chapters>Unknown</md:chapters>
+  <md:published>1989-now</md:published>
 </rdf:Description>
 
 <rdf:Description
 rdf:about="http://www.topmanga.fake/md/JoJo no Kimyou na Bouken Part 7: Steel Ball Run">
-  <md:genres>Action, Adventure, Mystery, Historical, Horror, Shounen, Supernatural</cd:genres>
-  <md:Authors>Hirohiko Araki</cd:country>
-  <md:volumes>24</cd:volumes>
-  <md:chapters>96</cd:chapters>
-  <md:published>2004-2011</cd:published>
+  <md:genres>Action, Adventure, Mystery, Historical, Horror, Shounen, Supernatural</md:genres>
+  <md:Authors>Hirohiko Araki</md:country>
+  <md:volumes>24</md:volumes>
+  <md:chapters>96</md:chapters>
+  <md:published>2004-2011</md:published>
 </rdf:Description>
 
 <rdf:Description
 rdf:about="http://www.topmanga.fake/md/Fullmetal Alchemist">
-  <md:genres>Action, Adventure, Comedy, Drama, Shounen, Military</cd:genres>
-  <md:Authors>Hiromu Arakawa</cd:country>
-  <md:volumes>27</cd:volumes>
-  <md:chapters>166</cd:chapters>
-  <md:published>2001-2010</cd:published>
+  <md:genres>Action, Adventure, Comedy, Drama, Shounen, Military</md:genres>
+  <md:Authors>Hiromu Arakawa</md:country>
+  <md:volumes>27</md:volumes>
+  <md:chapters>166</md:chapters>
+  <md:published>2001-2010</md:published>
 </rdf:Description>
 
 <rdf:Description
 rdf:about="http://www.topmanga.fake/md/Monster">
-  <md:genres>  Action, Adventure, Comedy, Drama, Shounen, Military</cd:genres>
-  <md:Authors>Naoki Urasawa</cd:country>
-  <md:volumes>18</cd:volumes>
-  <md:chapters>162</cd:chapters>
-  <md:published>1994-2001</cd:published>
+  <md:genres>  Action, Adventure, Comedy, Drama, Shounen, Military</md:genres>
+  <md:Authors>Naoki Urasawa</md:country>
+  <md:volumes>18</md:volumes>
+  <md:chapters>162</md:chapters>
+  <md:published>1994-2001</md:published>
 </rdf:Description>
 
 <rdf:Description
 rdf:about="http://www.topmanga.fake/md/One Piece">
-  <md:genres>Action, Adventure, Comedy, Fantasy, Shounen, Super Power</cd:genres>
-  <md:Authors>Eiichiro Oda</cd:country>
-  <md:volumes>Unknown</cd:volumes>
-  <md:chapters>Unknown</cd:chapters>
-  <md:published>1997-now</cd:published>
+  <md:genres>Action, Adventure, Comedy, Fantasy, Shounen, Super Power</md:genres>
+  <md:Authors>Eiichiro Oda</md:country>
+  <md:volumes>Unknown</md:volumes>
+  <md:chapters>Unknown</md:chapters>
+  <md:published>1997-now</md:published>
 </rdf:Description>
 
 <rdf:Description
 rdf:about="http://www.topmanga.fake/manga/Vagabond">
-  <cd:genres>Action, Adventure, Drama, Historical, Samurai, Seinen</cd:genres>
-  <cd:Authors>Eiji Yoshikawa </cd:country>
-  <cd:volumes>37</cd:volumes>
-  <cd:chapters>327</cd:chapters>
-  <cd:published>1999-2015</cd:published>
+  <cd:genres>Action, Adventure, Drama, Historical, Samurai, Seinen</md:genres>
+  <cd:Authors>Eiji Yoshikawa </md:country>
+  <cd:volumes>37</md:volumes>
+  <cd:chapters>327</md:chapters>
+  <cd:published>1999-2015</md:published>
 </rdf:Description>
 
 .
