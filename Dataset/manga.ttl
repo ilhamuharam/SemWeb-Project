@@ -4,35 +4,35 @@
   d:2     md:authors    "Hiromu Arakawa" ;
           md:chapters   "166" ;
           md:genres     "Action, Adventure, Comedy, Drama, Shounen, Military" ;
-          md:published  "2001-2010" ;
+          md:published  "2001" ;
           md:titles     "Fullmetal Alchemist" ;
           md:volumes    "27" .
 
-  d:4     md:athors     "Eiichiro Oda" ;
+  d:4     md:authors     "Eiichiro Oda" ;
           md:chapters   "Unknown" ;
           md:genres     "Action, Adventure, Comedy, Fantasy, Shounen, Super Power" ;
-          md:published  "1997-now" ;
+          md:published  "1997" ;
           md:titles     "One Piece" ;
           md:volumes    "Unknown" .
 
   d:3     md:authors    "Naoki Urasawa" ;
           md:chapters   "162" ;
           md:genres     "Action, Adventure, Comedy, Drama, Shounen, Military" ;
-          md:published  "1994-2001" ;
+          md:published  "1994" ;
           md:titles     "Monster" ;
           md:volumes    "18" .
 
   d:1     md:authors    "Hirohiko Araki" ;
           md:chapters   "96" ;
           md:genres     "Action, Adventure, Mystery, Historical, Horror, Shounen, Supernatural" ;
-          md:published  "2004-2011" ;
+          md:published  "2004" ;
           md:titles     "JoJo no Kimyou na Bouken Part 7: Steel Ball Run" ;
           md:volumes    "24" .
 
   d:0     md:authors    "Kentarou Miura" ;
           md:chapters   "Unknown" ;
           md:genres     "Action, Adventure, Demons, Drama, Fantasy" ;
-          md:published  "1989-now" ;
+          md:published  "1989" ;
           md:titles     "Berserk" ;
           md:volumes    "Unknown" .
 
@@ -42,3 +42,45 @@
           md:published  "1999-2015" ;
           md:titles     "Vagabond" ;
           md:volumes    "37" .
+
+  d:7     md:authors    "Hajime Isayama" ;
+          md:chapters   "unknown" ;
+          md:genres     "Action, Adventure, Shounen, Military" ;
+          md:published  "2009" ;
+          md:titles     "Shingeki no Kyojin" ;
+          md:volumes    "unknown" .
+
+  d:6     md:authors     "Masashi Kishimoto" ;
+          md:chapters   "700" ;
+          md:genres     "Action, Adventure, Comedy, Fantasy, Shounen, Super Power" ;
+          md:published  "1999" ;
+          md:titles     "Naruto" ;
+          md:volumes    "72" .
+
+  d:10     md:authors    "Yusuke Murata" ;
+          md:chapters   "unknown" ;
+          md:genres     "Action, Adventure, Comedy, Drama, Shounen, Super Power" ;
+          md:published  "2012" ;
+          md:titles     "One-Punch Man" ;
+          md:volumes    "unknown" .
+
+  d:9     md:authors    "Kouhei Horikoshi" ;
+          md:chapters   "unknown" ;
+          md:genres     "Action, Adventure, Fantasy, Comedy" ;
+          md:published  "2014" ;
+          md:titles     "Boku no Hero Academia" ;
+          md:volumes    "unknown" .
+
+  d:8     md:authors    "Hiro Mashima" ;
+          md:chapters   "549" ;
+          md:genres     "Action, Adventure, Demons, Comedy, Drama, Fantasy, Super Power" ;
+          md:published  "2006" ;
+          md:titles     "Fairy Tail" ;
+          md:volumes    "63" .
+
+  d:11     md:authors    "Tite Kubo" ;
+          md:chapters   "705" ;
+          md:genres     "Action, Adventure, Drama, Historical, Samurai, Seinen" ;
+          md:published  "2001" ;
+          md:titles     "Bleach" ;
+          md:volumes    "74" .

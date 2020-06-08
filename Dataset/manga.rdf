@@ -2,71 +2,127 @@
 <?xml version="1.0"?>
 
 <rdf:RDF
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdf="http://www.w3.org/2000/01/rdf-schema#"
 xmlns:md="http://www.topmanga.fake/mangadata#"
 xmlns:d="http://www.topmanga.fake/data#">
 
 <rdf:Description
-rdf:about="http://www.topmanga.fake/0">
-  <md:titles>Berserk</md:titles>
-  <md:genres>Action, Adventure, Demons, Drama, Fantasy</md:genres>
-  <md:Authors>Kentarou Miura</md:country>
-  <md:volumes>Unknown</md:volumes>
-  <md:chapters>Unknown</md:chapters>
-  <md:published>1989-now</md:published>
-</rdf:Description>
-
-<rdf:Description
 rdf:about="http://www.topmanga.fake/1">
-  <md:titles>JoJo no Kimyou na Bouken Part 7: Steel Ball Run</md:titles>
-  <md:genres>Action, Adventure, Mystery, Historical, Horror, Shounen, Supernatural</md:genres>
-  <md:Authors>Hirohiko Araki</md:country>
-  <md:volumes>24</md:volumes>
-  <md:chapters>96</md:chapters>
-  <md:published>2004-2011</md:published>
+  d:2     <md:authors>Hiromu Arakawa<md:authors>
+          <md:chapters>166<md:chapters>
+          <md:genres>Action, Adventure, Comedy, Drama, Shounen, Military<md:genres>
+          <md:published>2001<md:published>
+          <md:titles>Fullmetal Alchemist<md:titles>
+          <md:volumes>27<md:volumes>
 </rdf:Description>
 
 <rdf:Description
 rdf:about="http://www.topmanga.fake/2">
-  <md:titles>Fullmetal Alchemist</md:titles>
-  <md:genres>Action, Adventure, Comedy, Drama, Shounen, Military</md:genres>
-  <md:Authors>Hiromu Arakawa</md:country>
-  <md:volumes>27</md:volumes>
-  <md:chapters>166</md:chapters>
-  <md:published>2001-2010</md:published>
+  d:4     <md:authors>Eiichiro Oda<md:authors>
+          <md:chapters>Unknown<md:chapters>
+          <md:genres>Action, Adventure, Comedy, Fantasy, Shounen, Super Power<md:genres>
+          <md:published>1997<md:published>
+          <md:titles>One Piece<md:titles>
+          <md:volumes>Unknown<md:volumes>
 </rdf:Description>
 
 <rdf:Description
 rdf:about="http://www.topmanga.fake/3">
-  <md:titles>Monster</md:titles>
-  <md:genres>Action, Adventure, Comedy, Drama, Shounen, Military</md:genres>
-  <md:Authors>Naoki Urasawa</md:country>
-  <md:volumes>18</md:volumes>
-  <md:chapters>162</md:chapters>
-  <md:published>1994-2001</md:published>
+  d:3     <md:authors>Naoki Urasawa<md:authors>
+          <md:chapters>162<md:chapters>
+          <md:genres>Action, Adventure, Comedy, Drama, Shounen, Military<md:genres>
+          <md:published>1994<md:published>
+          <md:titles>Monster<md:titles>
+          <md:volumes>18<md:volumes>
 </rdf:Description>
 
 <rdf:Description
 rdf:about="http://www.topmanga.fake/4">
-  <md:titles>One Piece</md:titles>
-  <md:genres>Action, Adventure, Comedy, Fantasy, Shounen, Super Power</md:genres>
-  <md:Authors>Eiichiro Oda</md:country>
-  <md:volumes>Unknown</md:volumes>
-  <md:chapters>Unknown</md:chapters>
-  <md:published>1997-now</md:published>
+  d:1     <md:authors>Hirohiko Araki<md:authors>
+          <md:chapters>96<md:chapters>
+          <md:genres>Action, Adventure, Mystery, Historical, Horror, Shounen, Supernatural<md:genres>
+          <md:published>2004<md:published>
+          <md:titles>JoJo no Kimyou na Bouken Part 7: Steel Ball Run<md:titles>
+          <md:volumes>24<md:volumes>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.topmanga.fake/5">
+  d:0     <md:authors>Kentarou Miura<md:authors>
+          <md:chapters>Unknown<md:chapters>
+          <md:genres>Action, Adventure, Demons, Drama, Fantasy<md:genres>
+          <md:published>1989<md:published>
+          <md:titles>Berserk<md:titles>
+          <md:volumes>Unknown<md:volumes>
 </rdf:Description>
 
 <rdf:Description
 rdf:about="http://www.topmanga.fake/6">
-  <md:titles>Vagabond</md:titles>
-  <cd:genres>Action, Adventure, Drama, Historical, Samurai, Seinen</md:genres>
-  <cd:Authors>Eiji Yoshikawa </md:country>
-  <cd:volumes>37</md:volumes>
-  <cd:chapters>327</md:chapters>
-  <cd:published>1999-2015</md:published>
+  d:5     <md:authors>Eiji Yoshikawa<md:authors>
+          <md:chapters>327<md:chapters>
+          <md:genres>Action, Adventure, Drama, Historical, Samurai, Seinen<md:genres>
+          <md:published>1999-2015<md:published>
+          <md:titles>Vagabond<md:titles>
+          <md:volumes>37<md:volumes>
 </rdf:Description>
 
-.
-.
-.
+<rdf:Description
+rdf:about="http://www.topmanga.fake/7">
+  d:7     <md:authors>Hajime Isayama<md:authors>
+          <md:chapters>unknown<md:chapters>
+          <md:genres>Action, Adventure, Shounen, Military<md:genres>
+          <md:published>2009<md:published>
+          <md:titles>Shingeki no Kyojin<md:titles>
+          <md:volumes>unknown<md:volumes>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.topmanga.fake/8">
+  d:6     <md:authors>Masashi Kishimoto<md:authors>
+          <md:chapters>700<md:chapters>
+          <md:genres>Action, Adventure, Comedy, Fantasy, Shounen, Super Power<md:genres>
+          <md:published>1999<md:published>
+          <md:titles>Naruto<md:titles>
+          <md:volumes>72<md:volumes>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.topmanga.fake/9">
+  d:10    <md:authors>Yusuke Murata<md:authors>
+          <md:chapters>unknown<md:chapters>
+          <md:genres>Action, Adventure, Comedy, Drama, Shounen, Super Power<md:genres>
+          <md:published>2012<md:published>
+          <md:titles>One-Punch Man<md:titles>
+          <md:volumes>unknown<md:volumes>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.topmanga.fake/10">
+  d:9     <md:authors>Kouhei Horikoshi<md:authors>
+          <md:chapters>unknown<md:chapters>
+          <md:genres>Action, Adventure, Fantasy, Comedy<md:genres>
+          <md:published>2014<md:published>
+          <md:titles>Boku no Hero Academia<md:titles>
+          <md:volumes>unknown<md:volumes>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://www.topmanga.fake/11">
+  d:8     <md:authors>Hiro Mashima<md:authors>
+          <md:chapters>549<md:chapters>
+          <md:genres>Action, Adventure, Demons, Comedy, Drama, Fantasy, Super Power<md:genres>
+          <md:published>2006<md:published>
+          <md:titles>Fairy Tail<md:titles>
+          <md:volumes>63<md:volumes>
+
+<rdf:Description
+rdf:about="http://www.topmanga.fake/0">
+  d:11    <md:authors>Tite Kubo<md:authors>
+          <md:chapters>705<md:chapters>
+          <md:genres>Action, Adventure, Drama, Historical, Samurai, Seinen<md:genres>
+          <md:published>2001<md:published>
+          <md:titles>Bleach<md:titles>
+          <md:volumes>74<md:volumes>
+</rdf:Description>
+
 </rdf:RDF> 
